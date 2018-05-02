@@ -5,7 +5,7 @@
   "main": "public/index.html",
   "scripts": {
     "all": "nodemon server | webpack -w | gulp",
-    "start": "nodemon server"
+    "start": "node server"
   },
   "dependencies": {
     "express": "^4.14.0",
